@@ -1,0 +1,42 @@
+.howitworks{
+    margin: 20px 0px 20px 0px;
+}
+
+.howitworks-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+.howitworks-li{
+    padding-right: 90px;
+    width: 40%;
+}
+
+.howitworks-li-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.howitworks-li-head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.howitworks-li-body{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D4D4D;
+}

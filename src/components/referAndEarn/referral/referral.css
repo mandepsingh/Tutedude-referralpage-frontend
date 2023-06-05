@@ -1,0 +1,60 @@
+.withdraw-card{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.withdraw-data-box{
+    padding: 18px;
+}
+
+.withdraw-data-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.withdraw-balance-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    background: #800080;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 29px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.withdraw-balance-card{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 37px;
+    flex-wrap: nowrap;
+}
+
+.withdraw-data{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}

@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { BrowserRouter, Route, Routes} from "react-router-dom";
+import ReferandEarn from "./components/referAndEarn/referAndEarn.js";
+import { createContext, useReducer } from "react";
+import LoadingBar from "react-top-loading-bar";
+ 
+// contextAPI
+export const UserContext = createContext();
+
+const Routing = ()=>{
+  return(
+    <BrowserRouter>
+      <LoadingBar
+          color='#92a49c'
+          height={3}
+        />
+      <Routes>
+        <Route index element= {<ReferandEarn/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <UserContext.Provider>
+      <Routing/>
+    </UserContext.Provider>
+    </>
   );
 }
 
