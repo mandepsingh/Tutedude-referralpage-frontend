@@ -1,5 +1,6 @@
 .refercode{
     margin-bottom: 37px;
+    margin-left: 40px;
 }
 
 .refercode-heading{
@@ -25,6 +26,6 @@
     border-image-slice: 1;
     border-radius: 10px;
     border: 2.5px solid;
-    padding: 11px 50px 10px 47px;
+    padding: 13px 16px 10px 33px;
     margin-top: 17px;
 }

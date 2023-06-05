@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Logo from "../../images/logo.png"
 import Profile from "../../icons/profile.png"
 import Dropdown from "../../icons/dropdown.png"
-import DropdownWhite from '../../icons/dropdownWhite.png'
 import "./navbar.css"
 
 function Navbar() {
@@ -26,7 +25,7 @@ function Navbar() {
             onMouseLeave={toggleDropdown}
             >
                 
-                <a className='nav-links-profile' href="/"><img src={Profile} alt="Profile" className='profile-icon'/>ProfileName <img src={Dropdown} alt="Dropdown" className='drop-icon'/> <img src={DropdownWhite} alt="DropdownWhite" className='drop-icon-white'/></a>
+                <a className='nav-links-profile' href="/"><img src={Profile} alt="Profile" className='profile-icon'/>ProfileName <img src={Dropdown} alt="Dropdown" className='drop-icon'/></a>
                 {isDropdownOpen && (
                     <div className="dropdown-content">
                     <a href="/">Service 1</a>
